@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+
+}
+
+
+/* PARA SA FOOTER */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #0096FF;
+}
+
+/* DEFAULT FOOTER
+footer {
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+}
+*/
+
+.foot-container {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.foot_head {
+    color: white;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: 'Hepta Slab', serif;
+}
+
+.foot-container p {
+    margin-top: 20px;
+}
+
+.contact {
+    color: white;
+    font-size: 13px;
+    font-family: 'Hepta Slab', serif;
+}
+
+.footer_img {
+    display: flex;
+    gap: 15px;
+    height: 40px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.footer_img img {
+    width: 40px;
+}
+
+.last {
+    color: white;
+    font-size: 13px;
+    font-family: 'Hepta Slab', serif;
+    margin-bottom: 35px;
+}

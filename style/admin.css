@@ -1,0 +1,86 @@
+body {
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: rgb(247, 241, 241);
+}
+
+.navbar {
+   background-color: #fff;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+   /*
+   font-weight: bold;
+   */
+}
+
+.nav-link {
+   font-weight: bold;
+}
+
+.nav-item {
+   padding-left: 20px;
+   padding-right: 30px;
+   font-weight: 600;
+}
+
+
+.dashboard-header h1 {
+   color: #0096FF;
+   text-align: center;
+}
+
+.container h1 {
+   font-weight: bold;
+   font-size: 35px;
+   color: #0096FF;
+   text-align: left;
+   margin-bottom: 20px;
+}
+
+.table-responsive {
+   @media (max-width: 768px) {
+      overflow-x: auto;
+   }
+}
+
+.card-subtitle .bi {
+   color: #0096FF;
+   font-size: 30px;
+}
+
+.container {
+   margin-bottom: 50px;
+}
+
+
+.button-container .btn {
+   width: 200px;
+   background-color: #0096FF;
+   color: white;
+   margin-left: 0;
+}
+
+.add-room .btn {
+   width: 200px;
+   background-color: #0096FF;
+   color: white;
+   margin: left 0;
+}
+
+.table .btn-edit {
+   background-color: #0096FF;
+   color: white;
+}
+
+.table .btn-edit:hover {
+   background-color: #0096FF;
+   /* Darker purple on hover */
+   color: #fff;
+   /* Ensure text color stays white on hover */
+}
+
+.icon {
+   padding: 5px;
+}

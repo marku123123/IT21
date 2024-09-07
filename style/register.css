@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------- FOR ERRORS -------------------------------*/
+.errors {
+    color: red;
+}
+
+.errors ul {}
+
+.errors li {
+    /* margin-bottom: 5px;*/
+}
+
+/* ------------------------------- FOR ERRORS END ------------------------------*/
+
+.outer_input .form-control {
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+}
+
+
+.thumbnail {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    padding-bottom: 75%;
+    /* Aspect ratio 4:3 (height / width * 100) */
+    overflow: hidden;
+}
+
+.thumbnail a,
+.thumbnail img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* relevant styles */
+.img__wrap {
+    position: relative;
+    height: 200px;
+    width: 257px;
+}
+
+.img__description {
+    position: absolute;
+    bottom: 10;
+    right: 10;
+    margin: 5px 0 0 5px;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    background-color: #101010;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+
+
+.submit-btn,
+.Back-btn,
+.login-btn,
+.Reserve_btn {
+    border: none;
+    /* BABY BLUE */
+    background-color: #0096FF;
+    color: whitesmoke;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 8px 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.Back-btn {
+    /* width: 200px; */
+    background-color: #36454F;
+}
+
+.Reserve_btn {
+    margin-right: 10px;
+}
+
+.Reserve_btn:hover,
+.submit-btn:hover {
+    /* BRIGHT BLUE */
+    background-color: #89CFF0;
+    /* Ensure text color stays white on hover */
+    color: #fff;
+}
+
+/* for the about area design*/
+.abt_img img {
+    height: 500px;
+    width: 100%;
+}
+
+.about_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Headland One', serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.custom-card-width {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+/* Sign Up*/
+.form-control {
+    border-radius: 10px;
+    font-size: 15px;
+    height: 40px;
+    color: black;
+    margin-top: 20px;
+}
+
+/* REGISTER CSS */
+.register-container {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.register-body {
+    background: #D8D8D8;
+}
+
+.Reserve_btn i {
+    margin-left: 5px;
+}
+
+
+.outer_input {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.eye-icon i {
+    font-size: 16px;
+    margin: 0;
+    color: #89CFF0;
+}
+
+.eye-icon .fa-eye-slash {
+    display: none;
+}

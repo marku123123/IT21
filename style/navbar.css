@@ -1,0 +1,139 @@
+/* Navbar color */
+.color {
+    border: none;
+    background-color: white;
+    box-shadow: none;
+}
+
+/*
+.custom_link {
+    color: #0096FF;
+}
+
+.custom_link:hover {
+    /* Sapphire Blue 
+    color: #0F52BA;
+}
+*/
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar triple line icon css */
+.fa-lg {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-close {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.nav {
+    font-size: 25px;
+}
+
+.text {
+    font-size: 17px;
+    color: black;
+}
+
+/* Basic style of the nav-link */
+.nav-link {
+    position: relative;
+    transition: color 0.5s;
+    padding: 10px;
+}
+
+/* Expanding line on hover */
+.nav-link:hover::before {
+    left: 0;
+    right: 0;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    height: 2px;
+    background-color: #0096FF;
+    transition: left 0.5s, right 0.5s;
+}
+
+.dropdown-toggle,
+.login_btn {
+    border: none;
+    background-color: #0096FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px 30px;
+}
+
+.dropdown {
+    z-index: 5;
+}
+
+.dropdown-toggle:hover {
+    /* BRIGHT BLUE */
+    background-color: #89CFF0;
+    /* Ensure text color stays white on hover */
+    color: #fff;
+}
+
+.container .nav-img {
+    margin-right: 10px;
+    height: 50px;
+}
+
+.toggler {
+    display: flex;
+    /* Enables flexbox layout */
+    align-items: center;
+    /* Centers vertically */
+    justify-content: center;
+    /* Centers horizontally */
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        padding: 5px;
+    }
+
+    .btn {
+        padding: 5px 20px;
+    }
+
+    .login_btn {
+        padding: 5px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        font-size: 18px;
+    }
+
+    .nav-link {
+        padding: 3px;
+    }
+
+    .btn {
+        padding: 3px 15px;
+    }
+
+    .login_btn {
+        padding: 3px 15px;
+    }
+}
